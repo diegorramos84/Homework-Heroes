@@ -1,0 +1,98 @@
+.card-timer {
+  margin: 0 auto;
+  background-color: #ceedc7;
+  border-radius: 3px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  top: 2rem;
+  position: relative;
+  transform: scale(0.9)
+}
+
+.card-content {
+  text-align: center;
+  color: #000;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.timer-container {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.timer-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.timer-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #FF6E7C;
+  color: #ffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* transition: background-color 0.3s ease; */
+  font-family: 'Archivo', sans-serif;
+}
+
+.timer-button:hover {
+  background-color: #fc5364;
+}
+
+.timer-button.running {
+  background-color: #fffbc1;
+}
+
+.timer-button:active {
+  background-color: #ff6e7c;
+}
+
+.message-card {
+  background-color: #fffbc1;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.message-card p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.message-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #ceedc7;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.message-button:hover {
+  background-color: #fffbc1;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.green-content .card-timer {
+  background-color:  #8CCB9B;
+}
+
+.scaling-up .card-timer{
+  letter-spacing: 0.5px;
+  font-size: 1.3rem;
+}

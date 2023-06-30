@@ -1,0 +1,68 @@
+.component {
+  height: 81vh;
+  width: 15rem;
+  background-color: #CEEDC7;
+  font-size: 18px;
+  top: 5.5rem;
+  left: 3rem;
+  z-index: 100;
+  transition: transform 0.3s ease;
+  border: 1px dashed red;
+}
+
+.link-list {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.link-list li {
+  margin-bottom: 20px;
+}
+
+.toggles {
+  position: absolute;
+  bottom: -0.5rem;
+  left: 12rem;
+  transform: scale(1.3);
+}
+
+.green-content .component {
+  background-color:  #8CCB9B;
+}
+
+@media screen and (max-width: 1075px) {
+  .component {
+    bottom: 30rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .component {
+    width: 100%;
+    max-width: 100%;
+    transform: translateX(-100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .big-letter {
+    transform: scale(1.5);
+  }
+
+  .LT {
+    top: 15rem;
+  }
+
+  .DM {
+    top: 5rem;
+    right: 10rem;
+  }
+
+  .toggles {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: scale(1);
+    margin-top: 2rem;
+  }
+}

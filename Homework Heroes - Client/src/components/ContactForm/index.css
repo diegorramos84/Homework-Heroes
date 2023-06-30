@@ -1,0 +1,119 @@
+/*CONTACT US*/
+.contact-us-form {
+  color: black;
+}
+.contact-us-form h2{
+  color: #FF6E7C;
+}
+.contact-us-form form {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.contact-us-form form label{
+  font-size: 1.4rem;
+}
+input, label {
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+}
+.inputs-container {
+  width: 50%;
+  display: flex;
+  margin: 1rem;
+}
+.inputs {
+  width: 50%;
+}
+.inputs.padding {
+  padding-right: 2rem;
+}
+.inputs input {
+  height: 2.5rem;
+  border: 2px solid black;
+  outline: none;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+.message {
+  margin: 2rem;
+  width: 50%;
+  height: 10rem;
+}
+.message textarea {
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  resize: none;
+  padding-top: 1rem;
+  outline: none;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+.message textarea:focus {
+  border: 2px solid#42af7a;
+}
+.landing-inputs {
+  font-size: 1.2rem;
+  padding-left: 1rem;
+}
+.landing-inputs:hover {
+  border: 2px solid#42af7a;
+}
+.landing-inputs:focus {
+  border: 2px solid#42af7a;
+}
+
+.landing-page-btn {
+  margin: 3rem;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    /*CONTACT US */
+    .contact-us-form form {
+      width: 100%;
+  }
+  .inputs-container {
+      width: 80%;
+      flex-direction: column;
+  }
+  .inputs {
+      width: 100%;
+      margin-top: 1rem;
+  }
+  .inputs.padding {
+      padding-right: 0rem;
+  }
+  .message {
+      margin: auto;
+      width: 80%;
+      height: 10rem;
+  }
+  .message textarea {
+      width: 100%;
+      height: 70%;
+      border: 2px solid black;
+  }
+  
+  .landing-page-btns {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+  }
+  .landing-page-btns button {
+      margin-top: 1rem;
+  }
+}

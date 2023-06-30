@@ -1,0 +1,39 @@
+.inputsContainer {
+  width: 100%;
+  padding: 20px;
+}
+.inputsContainer h1 {
+  padding-bottom: 2rem;
+}
+.inputsContainer label{
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.inputsContainer input {
+  width: 80%;
+  border: 2px solid black;
+  outline: none;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  margin: auto;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+.inputsContainer input:hover {
+    border: 2px solid#42af7a;
+}
+.inputsContainer input:focus {
+  border: 2px solid#42af7a;
+}
+  
+.superhero-container {
+  margin-left: 1rem;
+}
+  
+  

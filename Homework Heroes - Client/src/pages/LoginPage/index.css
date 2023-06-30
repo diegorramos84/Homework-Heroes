@@ -1,0 +1,102 @@
+.container{
+    max-width: 100%;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+.container .login-register-form {
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    margin: 6% auto;
+    background-color: #ceedc7;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+
+.container input[type='submit']:hover {
+    background: #FC5364;
+}
+
+.inputsContainer {
+    width: 100%;
+    padding: 20px;
+}
+.inputsContainer h1 {
+  padding-bottom: 2rem;
+}
+.inputsContainer label{
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.inputsContainer input {
+  width: 80%;
+  border: 2px solid black;
+  outline: none;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  margin: auto;
+}
+
+/*------------- Media Queries ------------------ */
+@media screen and (max-width: 768px) {
+    .container .login-register-form {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container .login-register-form {
+      width: 95%;
+      margin: 12% auto;
+    }
+  }
+
+/*------------------- BECKI'S CONTACT FORM CSS ------------------------*/
+  /*CONTACT US*/
+.login-register-form label{
+    font-size: 1.4rem;
+  }
+  
+  .landing-inputs {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+  }
+  .landing-inputs:hover {
+    border: 2px solid#42af7a;
+  }
+  .landing-inputs:focus {
+    border: 2px solid#42af7a;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+      /*CONTACT US */
+      .contact-us-form form {
+           width: 100%;
+      }
+  
+      .landing-page-btns {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          align-items: center;
+      }
+      .landing-page-btns button {
+          margin-top: 1rem;
+      }
+  }
+  
+
+
+

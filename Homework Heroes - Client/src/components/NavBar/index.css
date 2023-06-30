@@ -1,0 +1,122 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #CEEDC7;
+  height: 6rem;
+}
+.main-nav {
+  display: flex;
+}
+.main-nav  a {
+  text-decoration: none;
+  margin: 1rem;
+  font-size: 1.4rem;
+  transition: 0.2s ease;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  font-weight: 500;
+
+}
+.main-nav a svg{
+  display: inline-block;
+  vertical-align: middle;
+}
+.main-nav img {
+  margin-top: -1.5rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+}
+.main-nav  a:hover {
+  color: #000000 !important;
+}
+.icon img {
+  width: 3.5rem;
+  height: 2.5rem;
+}
+svg{
+  display: inline;
+}
+/* NAVBAR avatar */
+.navbar-avatar {
+  width:50px;
+  height: 50px;
+}
+
+/* BURGER NAV */
+.burger-nav {
+    display: none;
+}
+.burger-line {
+    border-bottom: 3px solid black;
+    width: 2rem;
+    margin: 0.3rem;
+}
+.burger-nav-items {
+    display: none;
+}
+.burger-nav-items img{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+}
+.burger-nav-items a svg{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 1400px) {
+    .main-nav {
+      display: none;
+    }
+    .burger-nav {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2rem;
+    cursor: pointer;
+    position: absolute;
+    right: 0rem;
+    top: 1rem;
+    }
+    .burger-nav-items.active{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 4rem;
+        width: 100vw;
+        height: 30rem;
+        top: 2rem;
+        left: 0;
+        background-color: #CEEDC7;
+        z-index: 9999;
+        position: absolute;
+        overflow: hidden;
+        border-bottom: 2px solid #42af7a;
+    }
+    .burger-nav-items.active a{
+        text-decoration: none;
+        padding: 1rem;
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 0.5rem;
+        font-weight: 500;
+    }
+    .burger-nav-items.active a:hover {
+        border-bottom: 1px solid #42af7a;
+        color: #000000 !important;
+    }
+
+}

@@ -1,0 +1,32 @@
+.titles {
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 5rem;
+}
+
+@media only screen and (min-width: 1201px) {
+}
+@media only screen and (max-width: 1200px) {
+    .titles {
+        font-size: 2.8rem;
+        margin: 4rem;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .titles {
+        font-size: 2rem;
+        margin: 4rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .titles {
+        font-size: 1.7rem;
+        margin: 3rem;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .titles {
+        font-size: 1.5rem;
+        margin: 3rem;
+    }
+}

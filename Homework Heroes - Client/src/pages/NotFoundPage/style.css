@@ -1,0 +1,26 @@
+.notfound-container{
+    display: flex;
+    justify-content: space-around;
+    gap:2rem;
+    border-top: 1px solid red;
+    background-color: #fdfdfd;
+    display: flex;
+    padding: 2rem;
+}
+
+.notfound{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.notfound-title{
+    margin: auto;
+    font-size:2rem;
+}
+.notfound-404{
+    text-align: center;
+    font-weight: bold;
+    font-size:6rem;
+    color:#FF6E7C;
+    margin: auto;
+}

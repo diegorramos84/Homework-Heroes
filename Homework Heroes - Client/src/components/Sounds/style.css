@@ -1,0 +1,84 @@
+.button-container button {
+  padding: 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-radius: 10px;
+  background-color: #CEEDC7;
+  cursor: pointer;
+  color: #000; 
+  transition: all 0.5ms ease-in-out;
+  margin-right: 0.5rem;
+  /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+}
+
+.form-container {
+  margin-bottom: 10px;
+}
+
+.form-label{
+  font-size: 22px;
+}
+
+.sound-container {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.form-container select {
+  border: 0;
+  background: #CEEDC7;
+  width: auto;
+  text-indent: 0.01px;
+  color: #000; 
+  border-radius: 10rem;
+  margin-left: 0.6rem;
+  padding: 5px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  transition: all 0.5ms ease-in-out;
+  padding: 0.5rem;
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #000; 
+}
+
+.music-container {
+  margin: 0 auto;
+  background-color: #CEEDC7;
+  border-radius: 3px;
+  padding: 40px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(0.9);
+}
+
+.button-container button {
+  background-color: #FF6E7C;
+  color: white;
+  font-family: 'Archivo', sans-serif;
+  margin: 10px;
+  padding: 2px;
+  font-size: 1.0rem;
+  font-weight: 600;
+  width: 5rem;
+}
+
+.button-container button:hover {
+  border-color: #fc5364;
+}
+
+.form-container select {
+  border: 2px solid #CEEDC7;
+}
+
+
+.music-container {
+  background-color: #CEEDC7;
+}
+
+
+/* hi */

@@ -1,0 +1,168 @@
+
+.homework-page-container {
+  height: 80vh;
+}
+
+.page {
+  display:flex;
+  justify-content: center;
+  margin: 0px auto;
+  width: 80%;
+  border-radius: 0.5px;
+}
+
+main{
+  line-height: 2;
+}
+
+.status{
+  font-size: 1.17em;
+}
+
+.singular-homework{
+    background-color: #ceedc7;
+    /* left: 31rem;
+    top: 6rem; */
+    width: 70%;
+    border-radius: 8px;
+    padding: 3rem;
+    margin: 20px 20px;
+}
+
+.same-line {
+    display: flex;
+    align-items: center;
+}
+
+.same-line h3 {
+    margin-right: 5px;
+}
+
+.green-content .singular-homework {
+    background-color:  #8CCB9B;
+}
+
+.timer {
+    /* top: -11rem;
+    right: -6rem;
+    transform: scale(0.7); */
+    /* position: absolute;
+    right:0; */
+    width: 30%;
+    height: 30%;
+
+    /* position: relative; */
+    top: 1rem;
+    left:35rem;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.assign-buttons button {
+    margin: 15px 15px 15px 0px;
+    /* padding: 5px; */
+    font-size: 1.0rem;
+    font-weight: 600;
+
+}
+
+/* ---------------Toggles -------------*/
+.customisation2 {
+  /* position: relative; */
+  right: 95rem;
+  top: 30rem;
+}
+
+  @media screen and (max-width: 1290px ) {
+    .timer {
+        width: 32rem;
+    }
+    .singular-homework {
+        width: 30rem;
+        left: 20rem;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .dashboard {
+      width: 40rem;
+      left: 5rem;
+    }
+    .SH-container {
+      bottom: rem;
+      right: 26rem;
+    }
+
+    .hl-title {
+      left: -1rem;
+    }
+  }
+
+  @media screen and (max-width: 1150px) {
+    .hl-title {
+      top: 3rem;
+    }
+    .list {
+      top: 10rem;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .dashboard {
+      width: 35rem;
+      left: 4rem;
+    }
+    .SH-container {
+      bottom: 11rem;
+      right: 22rem;
+    }
+    .hl-title {
+      top: -1rem;
+      left: 6rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .dashboard {
+      width: 100%;
+      left: 0;
+      top: 0;
+    }
+    .SH-container {
+      bottom: 9rem;
+      right: 16rem;
+    }
+    .hl-title {
+      position: static;
+      text-align: center;
+      margin-bottom: 2rem;
+      right: 0;
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    .dashboard {
+      width: 50%;
+      left: 7rem;
+      top: 0;
+    }
+    .SH-container {
+      bottom: 0rem;
+      right: 16rem;
+      width: 50%
+    }
+    .list {
+      top: -7rem;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .dashboard {
+      width: 100%;
+      top: 5rem;
+    }
+  }
+
+  .sounds{
+    margin-top: 80px;
+  }

@@ -1,0 +1,67 @@
+.assign-homework-container {
+  width: 80%;
+  margin: auto;
+}
+
+.assign-homework-container h2 {
+  text-align: left;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.assign-hw-form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+.assign-hw-form button{
+  margin-left: 0;
+}
+.assign-hw-form select {
+  height: 2.5rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.assign-hw-form .date{
+  height: 2.5rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  margin-left: -0.1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+.select-hw select{
+  width: 25%;
+}
+.select-st select{
+  width: 25%;
+}
+.hw-form-date{
+  width: 25%;
+}
+@media only screen and (max-width: 1300px) {
+  .select-hw select{
+    width: 100%;
+  }
+  .select-st select{
+    width: 100%;
+  }
+  .hw-form-date{
+    width: 100%;
+  }
+}

@@ -1,0 +1,91 @@
+
+.new-hw {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.new-hw-form {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.hw-inputs label {
+  font-size: 1.4rem;
+  width: 80%;
+}
+.hw-inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.hw-inputs input {
+  height: 2.5rem;
+  border: 2px solid black;
+  outline: none;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  width: 80%;
+}
+.hw-textareas {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.hw-textareas label {
+  font-size: 1.4rem;
+  width: 80%;
+}
+.hw-textareas textarea {
+  width: 80%;
+  border: 2px solid black;
+  resize: none;
+  padding-top: 1rem;
+  height: 10rem;
+  outline: none;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.hw-form-btns{
+  display: flex;
+}
+.seperator {
+  width: 71%;
+  display: flex;
+}
+@media only screen and (max-width: 768px) {
+  .hw-form-btns{
+    flex-direction: column;
+  }
+  .seperator {
+    flex-direction: column;
+    width: 78%;
+  }
+  .hw-inputs input {
+    width: 80%;
+  }
+}

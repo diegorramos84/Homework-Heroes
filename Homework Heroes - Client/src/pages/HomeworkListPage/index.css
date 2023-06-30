@@ -1,0 +1,164 @@
+.container {
+  /* border: 1px dashed red; */
+  /* overflow: hidden; */
+  /* height: 80vh; */
+  display:flex;
+  width: 100%;
+}
+.hwtitle-hwlevel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hw-dashboard {
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-dashboard{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+}
+.lvl-badge {
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 10px;
+  background-color: #ceedc7;
+  max-height: 13rem;
+  width: 13rem;
+}
+
+.hwtitle-hwlevel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hw-title h1 {
+  margin: 1rem;
+}
+.hw-title h2 {
+  margin: 1rem;
+}
+
+.hw-title img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 20rem;
+  -webkit-border-radius: 20rem;
+  -moz-border-radius: 20rem;
+  -ms-border-radius: 20rem;
+  -o-border-radius: 20rem;
+
+}
+
+.hw-dash {
+  margin-top: 1rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.subjects-container button{
+  margin: 1rem;
+}
+
+/*-------------- Level-badge ------------*/
+.level-badge {
+  position: relative;
+  top: 10rem;
+  left:35rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 10px;
+  background-color: #ceedc7;
+}
+
+/*--------------Toggles ------------*/
+.customisation {
+  position: relative;
+  right: 45rem;
+  top: 2rem;
+}
+
+/*-------------- Scroll Bar ------------*/
+.all-student-hw-container::-webkit-scrollbar {
+  width: 1rem;
+}
+.all-student-hw-container::-webkit-scrollbar-track {
+  background: #CEEDC7;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.all-student-hw-container::-webkit-scrollbar-thumb {
+  background: #FF6E7C;
+  border: 1px solid #42AF7A;;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.all-student-hw-container::-webkit-scrollbar-thumb:hover {
+  background: #FC5364
+}
+
+@media only screen and (min-width: 1201px) {
+
+}
+@media only screen and (max-width: 1700px) {
+  .hwtitle-hwlevel {
+    align-items: center;
+    flex-direction: column;
+  }
+  .hw-title h1 {
+    font-size: 1.5rem;
+  }
+  .hw-title h2 {
+    font-size: 1.2rem;
+  }
+  .hw-title p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .letter-sizing {
+    width: auto;
+  }
+}
+
+
+
+@media only screen and (max-width: 940px) {
+    .date-cont {
+        width: 70%;
+    }
+    .hw-dashboard {
+      width: 99%;
+    }
+    .subjects-container button{
+      margin-left: -0.4rem;
+      margin-bottom: 0.5rem;
+    }
+
+}
+@media only screen and (max-height: 768px) {
+
+}
+
+.sound-container {
+  padding-top: 50px;
+}

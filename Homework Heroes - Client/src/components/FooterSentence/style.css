@@ -1,0 +1,19 @@
+.test {
+    position: relative;
+    left: 750px;
+    bottom: 24px;
+    width: 550px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .test {
+      position: static;
+      left: auto;
+      bottom: auto;
+      width: 100%;
+      max-width: 410px;
+      margin: 0 auto;
+    }
+  }
+  
