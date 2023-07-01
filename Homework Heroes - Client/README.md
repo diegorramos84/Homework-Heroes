@@ -16,7 +16,7 @@ git clone https://github.com/Beckibuzz93/Homework-Heroes
 
 ## Go to the app folder
 ``` bash 
-cd Beckibuzz93/Homework-Heroes
+cd Beckibuzz93/Homework-Heroes - Client
 ```
 
 ## Install packages 
