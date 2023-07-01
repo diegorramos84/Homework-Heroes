@@ -38,7 +38,7 @@ npm run dev
 
 # UX Design
 ## Wireframes
-<img src='../Homework-Heroes/images/HomeworkHeroesUX1.PNG'>
+<img src='./images/HomeworkHeroesUX1.PNG'>
 
 ## Colours and fonts
 These were chosen by research, we used: 
@@ -52,22 +52,24 @@ These were chosen by research, we used:
 
 # App Pictures 
 ## Homepage 
-<img src='../Homework-Heroes/images/HomeworkHeroesHomePageDesktop.PNG'>
-<img src='../Homework-Heroes/images/HomeworkHeroesHomePageDesktop2.PNG'>
-<img style='margin-right: 2rem;' src='../Homework-Heroes/images/HomeworkHeroesHomePageMobile.PNG'><img style='margin-left: 2rem;' src='../Homework-Heroes/images/HomeworkHeroesHomePageMobile2.PNG'>
+<img src='./images/HomeworkHeroesHomePageDesktop.PNG'>
+<img src='./images/HomeworkHeroesHomePageDesktop2.PNG'>
+<img style='margin-right: 2rem;' src='./images/HomeworkHeroesHomePageMobile.PNG'><img style='margin-left: 2rem;' src='./images/HomeworkHeroesHomePageMobile2.PNG'>
 
-## Signup & Login page
-<img src='../Homework-Heroes/images/'>
+## Login page
+<img src='./images/PTP-Login.PNG'>
+
+## Dashboard Page
+<img src='./images/PTP-dashboard.PNG'>
 
 ## Homework page
-<img src='../Homework-Heroes/images/'>
+<img src='./images/PTP-homework.PNG'>
 
-## Profile Page
-<img src='../Homework-Heroes/images/'>
 
 # Tests
-## We tested *this much*
-<img src='../Homework-Heroes/images/'>
+## We tested 72% of our application
+
+<img src='./images/PTP-FE-test.PNG'>
 
 
 # Credits

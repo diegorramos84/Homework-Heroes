@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1687512165894" clover="3.2.0">
-  <project timestamp="1687512165895" name="All files">
-    <metrics statements="778" coveredstatements="559" conditionals="25" coveredconditionals="19" methods="32" coveredmethods="12" elements="835" coveredelements="590" complexity="0" loc="778" ncloc="778" packages="14" files="16" classes="16"/>
+<coverage generated="1688172502091" clover="3.2.0">
+  <project timestamp="1688172502092" name="All files">
+    <metrics statements="780" coveredstatements="564" conditionals="25" coveredconditionals="19" methods="32" coveredmethods="12" elements="837" coveredelements="595" complexity="0" loc="780" ncloc="780" packages="14" files="16" classes="16"/>
     <package name="src">
       <metrics statements="15" coveredstatements="15" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="store.js" path="C:\Users\becki\Desktop\Git\La Fosse Project Week\Project4 - Homework Heroes\Homework-Heroes\src\store.js">
+      <file name="store.js" path="C:\Users\becki\Desktop\Git\Homework Heroes\Homework Heroes - Client\src\store.js">
         <metrics statements="15" coveredstatements="15" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -25,7 +25,7 @@
     </package>
     <package name="src.components.Button">
       <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\La Fosse Project Week\Project4 - Homework Heroes\Homework-Heroes\src\components\Button\index.jsx">
+      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\Homework Heroes\Homework Heroes - Client\src\components\Button\index.jsx">
         <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -41,9 +41,9 @@
       </file>
     </package>
     <package name="src.components.ContactForm">
-      <metrics statements="87" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\La Fosse Project Week\Project4 - Homework Heroes\Homework-Heroes\src\components\ContactForm\index.jsx">
-        <metrics statements="87" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="88" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\Homework Heroes\Homework Heroes - Client\src\components\ContactForm\index.jsx">
+        <metrics statements="88" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -129,21 +129,22 @@
         <line num="83" count="0" type="stmt"/>
         <line num="84" count="0" type="stmt"/>
         <line num="85" count="0" type="stmt"/>
-        <line num="86" count="1" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
         <line num="87" count="1" type="stmt"/>
+        <line num="88" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.Footer">
-      <metrics statements="19" coveredstatements="19" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\La Fosse Project Week\Project4 - Homework Heroes\Homework-Heroes\src\components\Footer\index.jsx">
-        <metrics statements="19" coveredstatements="19" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <metrics statements="24" coveredstatements="24" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\Homework Heroes\Homework Heroes - Client\src\components\Footer\index.jsx">
+        <metrics statements="24" coveredstatements="24" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="8" count="3" type="stmt"/>
         <line num="9" count="3" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
@@ -154,13 +155,18 @@
         <line num="15" count="3" type="stmt"/>
         <line num="16" count="3" type="stmt"/>
         <line num="17" count="3" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.Landing Button">
       <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\La Fosse Project Week\Project4 - Homework Heroes\Homework-Heroes\src\components\Landing Button\index.jsx">
+      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\Homework Heroes\Homework Heroes - Client\src\components\Landing Button\index.jsx">
         <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -177,7 +183,7 @@
     </package>
     <package name="src.components.MainTitle">
       <metrics statements="12" coveredstatements="12" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\La Fosse Project Week\Project4 - Homework Heroes\Homework-Heroes\src\components\MainTitle\index.jsx">
+      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\Homework Heroes\Homework Heroes - Client\src\components\MainTitle\index.jsx">
         <metrics statements="12" coveredstatements="12" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -194,9 +200,9 @@
       </file>
     </package>
     <package name="src.components.NavBar">
-      <metrics statements="100" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\La Fosse Project Week\Project4 - Homework Heroes\Homework-Heroes\src\components\NavBar\index.jsx">
-        <metrics statements="100" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="96" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\Homework Heroes\Homework Heroes - Client\src\components\NavBar\index.jsx">
+        <metrics statements="96" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -292,16 +298,12 @@
         <line num="93" count="0" type="stmt"/>
         <line num="94" count="0" type="stmt"/>
         <line num="95" count="0" type="stmt"/>
-        <line num="96" count="0" type="stmt"/>
-        <line num="97" count="0" type="stmt"/>
-        <line num="98" count="0" type="stmt"/>
-        <line num="99" count="0" type="stmt"/>
-        <line num="100" count="1" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.Sounds">
       <metrics statements="59" coveredstatements="51" conditionals="3" coveredconditionals="3" methods="4" coveredmethods="1"/>
-      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\La Fosse Project Week\Project4 - Homework Heroes\Homework-Heroes\src\components\Sounds\index.jsx">
+      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\Homework Heroes\Homework Heroes - Client\src\components\Sounds\index.jsx">
         <metrics statements="59" coveredstatements="51" conditionals="3" coveredconditionals="3" methods="4" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -366,7 +368,7 @@
     </package>
     <package name="src.components.Title">
       <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\La Fosse Project Week\Project4 - Homework Heroes\Homework-Heroes\src\components\Title\index.jsx">
+      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\Homework Heroes\Homework Heroes - Client\src\components\Title\index.jsx">
         <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -383,7 +385,7 @@
     </package>
     <package name="src.context.BurgerNavigation">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="burgerNavContext.jsx" path="C:\Users\becki\Desktop\Git\La Fosse Project Week\Project4 - Homework Heroes\Homework-Heroes\src\context\BurgerNavigation\burgerNavContext.jsx">
+      <file name="burgerNavContext.jsx" path="C:\Users\becki\Desktop\Git\Homework Heroes\Homework Heroes - Client\src\context\BurgerNavigation\burgerNavContext.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -392,7 +394,7 @@
     </package>
     <package name="src.pages.LandingPage">
       <metrics statements="98" coveredstatements="95" conditionals="3" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\La Fosse Project Week\Project4 - Homework Heroes\Homework-Heroes\src\pages\LandingPage\index.jsx">
+      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\Homework Heroes\Homework Heroes - Client\src\pages\LandingPage\index.jsx">
         <metrics statements="98" coveredstatements="95" conditionals="3" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -496,7 +498,7 @@
     </package>
     <package name="src.pages.LoginPage">
       <metrics statements="69" coveredstatements="58" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="1"/>
-      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\La Fosse Project Week\Project4 - Homework Heroes\Homework-Heroes\src\pages\LoginPage\index.jsx">
+      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\Homework Heroes\Homework Heroes - Client\src\pages\LoginPage\index.jsx">
         <metrics statements="69" coveredstatements="58" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -571,7 +573,7 @@
     </package>
     <package name="src.pages.RegisterPage">
       <metrics statements="202" coveredstatements="178" conditionals="6" coveredconditionals="4" methods="6" coveredmethods="1"/>
-      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\La Fosse Project Week\Project4 - Homework Heroes\Homework-Heroes\src\pages\RegisterPage\index.jsx">
+      <file name="index.jsx" path="C:\Users\becki\Desktop\Git\Homework Heroes\Homework Heroes - Client\src\pages\RegisterPage\index.jsx">
         <metrics statements="202" coveredstatements="178" conditionals="6" coveredconditionals="4" methods="6" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -779,7 +781,7 @@
     </package>
     <package name="src.slice">
       <metrics statements="81" coveredstatements="60" conditionals="3" coveredconditionals="2" methods="8" coveredmethods="2"/>
-      <file name="apiSlice.js" path="C:\Users\becki\Desktop\Git\La Fosse Project Week\Project4 - Homework Heroes\Homework-Heroes\src\slice\apiSlice.js">
+      <file name="apiSlice.js" path="C:\Users\becki\Desktop\Git\Homework Heroes\Homework Heroes - Client\src\slice\apiSlice.js">
         <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -791,7 +793,7 @@
         <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="9" count="1" type="stmt"/>
       </file>
-      <file name="authSlice.js" path="C:\Users\becki\Desktop\Git\La Fosse Project Week\Project4 - Homework Heroes\Homework-Heroes\src\slice\authSlice.js">
+      <file name="authSlice.js" path="C:\Users\becki\Desktop\Git\Homework Heroes\Homework Heroes - Client\src\slice\authSlice.js">
         <metrics statements="26" coveredstatements="22" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -820,7 +822,7 @@
         <line num="25" count="1" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
       </file>
-      <file name="userAPISlice.js" path="C:\Users\becki\Desktop\Git\La Fosse Project Week\Project4 - Homework Heroes\Homework-Heroes\src\slice\userAPISlice.js">
+      <file name="userAPISlice.js" path="C:\Users\becki\Desktop\Git\Homework Heroes\Homework Heroes - Client\src\slice\userAPISlice.js">
         <metrics statements="46" coveredstatements="29" conditionals="1" coveredconditionals="1" methods="5" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
