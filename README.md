@@ -6,3 +6,5 @@ Homework Hero is a specialised app designed to support autistic students in mana
 See Live: https://homework-heroes.onrender.com/
 
 Server side of the project: https://github.com/diegorramos84/homeworkheroes-api
+
+Client side: https://github.com/diegorramos84/Homework-Heroes/tree/main/Homework%20Heroes%20-%20Client
