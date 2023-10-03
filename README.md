@@ -36,9 +36,8 @@ npm run dev
 5. Jest, React testing library, Jsdom
 6. Google fonts
 
-# UX Design
 ## Wireframes
-<img src='./images/HomeworkHeroesUX1.PNG'>
+<img src='https://github.com/diegorramos84/Homework-Heroes/assets/17050237/c2e76960-8fb5-481a-bdd3-eaba7913e0df'>
 
 ## Colours and fonts
 These were chosen by research, we used: 
@@ -50,26 +49,29 @@ These were chosen by research, we used:
 5. Montserrat, sans-serif
 6. Archivo, sans-serif
 
-# App Pictures 
+
 ## Homepage 
-<img src='./images/HomeworkHeroesHomePageDesktop.PNG'>
-<img src='./images/HomeworkHeroesHomePageDesktop2.PNG'>
-<img style='margin-right: 2rem;' src='./images/HomeworkHeroesHomePageMobile.PNG'><img style='margin-left: 2rem;' src='./images/HomeworkHeroesHomePageMobile2.PNG'>
+<img src='https://github.com/diegorramos84/Homework-Heroes/assets/17050237/d9024db4-e56c-4170-a91a-94ec921ef4f7'>
+<img src='https://github.com/diegorramos84/Homework-Heroes/assets/17050237/c4f3113b-91d9-4f5b-bcc5-c5adac2c44d4'>
+<img style='margin-right: 2rem;' src='https://github.com/diegorramos84/Homework-Heroes/assets/17050237/3561be92-1674-420e-936a-775d9e194b8e'>
+<img style='margin-left: 2rem;' src='https://github.com/diegorramos84/Homework-Heroes/assets/17050237/fe1af560-b22a-42e6-b4a6-27fb9dc15bce'>
+
+
 
 ## Login page
-<img src='./images/PTP-Login.PNG'>
+<img src='https://github.com/diegorramos84/Homework-Heroes/assets/17050237/0d67c9c9-4233-43d2-acc5-bcd9a36d5246'>
 
 ## Dashboard Page
-<img src='./images/PTP-dashboard.PNG'>
+<img src='https://github.com/diegorramos84/Homework-Heroes/assets/17050237/de621471-5999-44b4-8c26-80e093334a4a'>
 
 ## Homework page
-<img src='./images/PTP-homework.PNG'>
+<img src='https://github.com/diegorramos84/Homework-Heroes/assets/17050237/353ef3f1-b215-4b44-bdb5-ac3657c57371'>
 
 
 # Tests
 ## We tested 72% of our application
 
-<img src='./images/PTP-FE-test.PNG'>
+<img src='https://github.com/diegorramos84/Homework-Heroes/assets/17050237/47497213-0be3-45a4-87e2-cd23cac88ed5'>
 
 
 # Credits
